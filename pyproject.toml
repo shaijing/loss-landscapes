@@ -1,0 +1,37 @@
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+license-files = ["LICENCE.txt", "LICEN[CS]E*"]
+name = "loss_landscapes"
+version = "3.0.7"
+readme = "README.md"
+description = "A library for approximating loss landscapes in low-dimensional parameter subspaces."
+authors = [
+    { name = "Marcello De Bernardi", email = "marcello.debernardi@stcatz.ox.ac.uk" },
+]
+
+dependencies = ["numpy", "matplotlib", "tqdm", "torch", "torchvision"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+[project.urls]
+homepage = "https://github.com/marcellodebernardi/loss-landscapes"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tests"] # empty by default
+
+# [tool.setuptools.bdist_wheel]
+# universal = false
