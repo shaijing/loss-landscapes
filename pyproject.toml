@@ -12,6 +12,10 @@ description = "A library for approximating loss landscapes in low-dimensional pa
 authors = [
     { name = "Marcello De Bernardi", email = "marcello.debernardi@stcatz.ox.ac.uk" },
 ]
+maintainers = [
+    { name = "CHENBIN99", email = "c_chenbin@foxmail.com" },
+    { name = "Ling Yu", email = "lingyu.lynn@outlook.com" },
+]
 
 dependencies = ["numpy", "matplotlib", "tqdm", "torch", "torchvision"]
 classifiers = [

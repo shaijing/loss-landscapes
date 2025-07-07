@@ -1,4 +1,9 @@
+# ide
+.idea/
+.vscode/
+
 # environments
+.env
 env/
 ENV/
 Env/
@@ -21,3 +26,10 @@ build/
 
 # tests
 tests/
+
+
+# virtualenv
+.venv/
+
+# cache
+*/**/__pycache__
